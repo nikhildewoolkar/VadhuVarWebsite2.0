@@ -1,0 +1,295 @@
+.basicInfo,
+.note,
+.result li .img {
+  text-align: center;
+}
+.refineSearch label {
+  font-weight: 400;
+  display: block;
+  color: #666;
+}
+.refineSearch .ageWrapper .from {
+  width: 48%;
+  float: left;
+}
+.refineSearch .ageWrapper {
+  overflow: hidden;
+}
+.refineSearch .ageWrapper .to {
+  width: 48%;
+  float: right;
+}
+.refineSearch .btn {
+  font-size: 20px;
+  display: block;
+  width: 100%;
+}
+.refineSearch .btn .glyphicon {
+  font-size: 18px;
+}
+.refineSearch select.form-control {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  background: url() right 14px no-repeat #fff;
+}
+.result li {
+  border: 1px solid #dee0ef;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.result li .img {
+  width: 150px;
+  clear: both;
+  display: block;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.result li .img a {
+  height: 150px;
+  line-height: 150px;
+}
+.result li .left {
+  border-right: solid 1px #dee0ef;
+  overflow: hidden;
+}
+.result li .basicInfo small {
+  display: block;
+  margin-bottom: 10px;
+  color: #28a0c5;
+}
+.result li .basicInfo .label {
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  background-color: #d92d5f;
+  color: #fff;
+  display: inline-block;
+}
+.result li .basicInfo .label-info {
+  background-color: #5bc0de !important;
+}
+.result li .right .aboutSummary {
+  color: #999;
+  clear: both;
+}
+.result li .right .aboutSummary a {
+  color: #eb5d0c;
+}
+.result li .right .linksWrapper a {
+  margin-right: 20px;
+  color: #28a0c5;
+}
+.result li .right .linksWrapper a.btn {
+  color: #fff;
+}
+.result li h4 {
+  margin: 0 0 10px;
+  border-bottom: solid 1px #eee;
+}
+.result li h4,
+.result li h5 {
+  background-color: #fafafa;
+  clear: both;
+  padding: 10px;
+  color: #eb5d0c;
+}
+.result li h4 small {
+  color: #28a0c5;
+  margin-left: 5px;
+}
+.result li h5 {
+  margin: 10px 0 0;
+  border-top: solid 1px #eee;
+}
+.result li .linksWrapper {
+  margin-top: 20px;
+  text-align: center;
+}
+.note {
+  font-size: 18px;
+  color: #222;
+}
+.advanceSearch form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fafafa;
+  border: 1px solid #eee;
+  padding: 40px;
+}
+.advanceSearch .form-control,
+.advanceSearch label:before {
+  background-color: #fff;
+}
+.advanceSearch .ageWrap .form-control {
+  width: 48%;
+}
+.advanceSearch .ageWrap .from {
+  float: left;
+}
+.advanceSearch .ageWrap .to {
+  float: right;
+}
+.advanceSearch .checkbox-inline,
+.advanceSearch .radio-inline {
+  padding: 10px 20px 0 0;
+}
+.advanceSearch .checkbox-inline label,
+.advanceSearch .radio-inline label {
+  font-size: 14px;
+}
+.advanceSearch .controlLabel {
+  margin: 0;
+  line-height: 40px;
+}
+.materialStatus .checkbox {
+  padding-right: 0;
+  margin: 0 10px 10px 0;
+}
+.searchLinkWrapper {
+  margin-bottom: 50px;
+}
+.searchLinkWrapper a {
+  font-size: 20px;
+  position: relative;
+  display: inline-block;
+  line-height: 60px;
+}
+.list ul li,
+.list ul li label {
+  display: block;
+}
+.searchLinkWrapper a i {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 10px;
+  padding: 18px;
+  float: left;
+}
+.searchLinkWrapper a:before {
+  width: 60px;
+  height: 60px;
+  background-color: #677399;
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  content: "";
+}
+.searchLinkWrapper a:hover:before {
+  background-color: #bb0659;
+}
+.list ul {
+  height: 120px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 5px;
+  background-color: #fff;
+}
+.list ul li {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.list ul li:hover {
+  background-color: #fafafa;
+}
+.keepcenter {
+  margin: 0 auto;
+  float: none;
+}
+@media screen and (max-width: 967px) {
+  .result li .left {
+    margin-bottom: 20px;
+    border: 0;
+  }
+  .result li .left,
+  .result li .right {
+    clear: both;
+  }
+  .result li .right .aboutSummary {
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .searchLinkWrapper a {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .advanceSearch .ageWrap .form-control {
+    width: 33%;
+  }
+  .aboutSummary .summary {
+    height: auto;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .searchLinkWrapper a i {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .searchLinkWrapper a {
+    line-height: 40px;
+  }
+  .searchLinkWrapper a:before {
+    width: 40px;
+    height: 40px;
+  }
+  .advanceSearch .ageWrap .form-control {
+    width: 48%;
+  }
+  .refineSearch {
+    padding: 10px 0 0;
+  }
+  .refinefilter .form {
+    display: none;
+  }
+  .refinefilter h5:after {
+    position: absolute;
+    content: "+";
+    top: 5px;
+    right: 10px;
+    font-size: 20px;
+  }
+  .refinefilter h5.active:after {
+    position: absolute;
+    content: "_";
+    top: -4px;
+    right: 10px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .result li .right .linksWrapper a {
+    margin-right: 10px;
+  }
+  .result li .img {
+    float: none;
+    margin: 0 auto 20px;
+    display: block;
+  }
+  .result li .basicInfo {
+    padding: 0;
+  }
+  .advanceSearch form {
+    padding: 10px;
+  }
+  .advanceSearch .ageWrap .form-control {
+    width: 48%;
+  }
+  .searchLinkWrapper a {
+    font-size: 14px;
+  }
+  .searchLinkWrapper .col-xs-4 {
+    width: 100%;
+    padding: 0;
+  }
+  .searchLinkWrapper {
+    margin-bottom: 20px;
+  }
+  .linksWrapper a {
+    font-size: 12px;
+  }
+}

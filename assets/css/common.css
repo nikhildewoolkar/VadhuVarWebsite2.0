@@ -1,0 +1,473 @@
+#toTop {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  font-size: 40px;
+  display: none;
+}
+body {
+  color: #566374;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+a {
+  color: #566374;
+  transition: all 0.3s ease-in-out;
+}
+a:hover {
+  color: #ff6600;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #677399;
+}
+h2 {
+  font-size: 24px;
+}
+.hiddenDiv {
+  display: none;
+}
+.icon {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.graybg {
+  background-color: #f7f8fa;
+}
+.btnpink {
+  background-color: #f57023;
+  border: 0;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+}
+.btnpink:hover,
+.btnpink:focus,
+.btnpink-visited {
+  background-color: #566374;
+  color: #fff;
+}
+.title {
+  font-size: 35px;
+  color: #ff6600;
+  margin: 0 0 15px 0;
+  text-align: center;
+  font-weight: 600;
+}
+.titleDescription {
+  font-size: 18px;
+  text-align: center;
+  padding: 0 5%;
+  margin-bottom: 50px;
+  clear: both;
+}
+.titleDescription2 {
+  font-size: 20px;
+  text-align: center;
+  padding: 0 5%;
+  margin-bottom: 50px;
+  clear: both;
+}
+.radio,
+.checkbox {
+  margin: 0;
+}
+.radio input[type="radio"],
+.checkbox input[type="checkbox"] {
+  display: none;
+  margin: 0;
+}
+.radio label,
+.checkbox label {
+  position: relative;
+  padding-left: 30px;
+}
+.radio label:before,
+.checkbox label:before {
+  width: 20px;
+  height: 20px;
+  border: solid 1px #ccc;
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  text-align: center;
+  font-style: normal;
+  line-height: 14px;
+  background-color: #fff;
+}
+.radio input[type="radio"]:checked + label:before {
+  content: "\2022";
+  font-size: 40px;
+}
+.checkbox label:before {
+  border-radius: 2px;
+}
+.checkbox input[type="checkbox"]:checked + label:before {
+  content: "\2713";
+  font-size: 16px;
+  line-height: 18px;
+}
+.titleWrapper {
+  background-color: #ff6600;
+  padding: 10px 0;
+}
+.titleWrapper h1 {
+  font-size: 24px;
+  color: #ffffff;
+  margin: 0 0 5px 0;
+}
+.titleWrapper .breadcrumbs a,
+.titleWrapper .breadcrumbs span {
+  color: #28a0c5;
+  padding-right: 5px;
+  font-size: 12px;
+}
+.titleWrapper .breadcrumbs a:hover,
+.titleWrapper .breadcrumbs a.active {
+  text-decoration: underline;
+  color: #d92d5f;
+}
+.notFoundWrapper {
+  padding: 60px 0;
+  text-align: center;
+}
+.notFoundWrapper h1 {
+  font-size: 40px;
+  color: #637383;
+  margin: 0 0 30px 0;
+}
+.notFoundWrapper p {
+  color: #a7bccf;
+  font-size: 24px;
+  padding: 0 10%;
+}
+.notFoundWrapper span {
+  font-size: 200px;
+  color: #2ca6cb;
+  font-weight: 700;
+}
+nav .submenu {
+  display: none;
+  position: absolute;
+  top: 70px;
+  left: 10px;
+  background-color: #fff;
+  border: solid 1px #ccc;
+  width: 200px;
+}
+nav li:hover .submenu {
+  display: block;
+}
+nav .submenu:after,
+nav .submenu:before {
+  position: absolute;
+  bottom: 100%;
+  left: 20px;
+  content: "";
+}
+nav .submenu:after {
+  border-bottom: solid 8px #ccc;
+  border-right: solid 8px transparent;
+  border-left: solid 8px transparent;
+}
+nav .submenu:before {
+  border-bottom: solid 7px #fff;
+  border-right: solid 7px transparent;
+  border-left: solid 7px transparent;
+  z-index: 2;
+  margin-left: 1px;
+}
+nav .submenu a {
+  padding: 10px;
+  font-size: 14px;
+  color: #566374;
+}
+nav .submenu li {
+  float: none;
+  display: block;
+  border-bottom: solid 1px #ccc;
+}
+nav .submenu li:after {
+  border: 0;
+}
+nav .submenu li:after {
+  display: none;
+}
+nav .submenu li a:hover {
+  background-color: #d92d5f;
+  color: #fff;
+}
+nav .dropdown > a:after {
+  width: 20px;
+  height: 15px;
+  display: block;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 25px;
+  background: transparent url() 0 0 no-repeat;
+}
+nav .dropdown:hover > a:after,
+nav .dropdown > a:hover:after {
+  background-position: 0 -31px;
+}
+nav .dropdown > a {
+  padding-right: 30px;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.tabmenu a {
+  color: #28a0c5;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: solid 1px #28a0c5;
+  display: inline-block;
+  border-radius: 3px;
+}
+.tabmenu a:hover,
+.tabmenu a.active {
+  color: #d92d5f;
+  border-color: #d92d5f;
+}
+select.form-control {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  background: #fff url(https:/) right 14px no-repeat;
+}
+.logInpage select.form-control {
+  background: url(https) right 18px no-repeat;
+}
+.file {
+  position: absolute;
+  visibility: hidden;
+}
+.btnYellow {
+  color: yellow;
+  border-color: yellow;
+}
+.panel {
+  border-radius: 0;
+}
+.panel-title {
+  color: #666;
+}
+.refinefilter {
+  margin-bottom: 20px;
+}
+.refinefilter h2 {
+  margin: 0 0 5px;
+  padding: 12px 10px;
+  background-color: #ccc;
+  color: #222;
+  font-size: 20px;
+}
+.refinefilter h5 {
+  background-color: #f3f3f3;
+  color: #666;
+  padding: 10px;
+  margin: 0 0 5px;
+  position: relative;
+  cursor: pointer;
+  border: solid 1px #ccc;
+}
+.refinefilter h5:after {
+  position: absolute;
+  content: "_";
+  top: -4px;
+  right: 10px;
+  font-size: 20px;
+}
+.refinefilter h5.active:after {
+  position: absolute;
+  content: "+";
+  top: 5px;
+  right: 10px;
+  font-size: 20px;
+}
+.refinefilter .form {
+  padding: 10px 10px 0;
+  height: 150px;
+  overflow-y: auto;
+  margin: 5px 0;
+  background-color: #f5f5f5;
+}
+.refinefilter .form .checkbox {
+  margin-bottom: 10px;
+}
+.refinefilter .form .checkbox label {
+  font-size: 14px;
+  line-height: 22px;
+  color: #222;
+  display: block;
+}
+.refinefilter .form a small {
+  float: right;
+}
+.refinefilter .form a {
+  display: block;
+  margin-bottom: 5px;
+}
+.form.refineSearch {
+  display: none;
+  height: auto;
+}
+.refinefilter h5.first:after {
+  position: absolute;
+  content: "+";
+  top: 5px;
+  right: 10px;
+  font-size: 20px;
+}
+.refinefilter h5.first.active:after {
+  position: absolute;
+  content: "_";
+  top: -4px;
+  right: 10px;
+  font-size: 20px;
+}
+.img a {
+  overflow: hidden;
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
+}
+.img {
+  position: relative;
+  background-color: #fff;
+}
+.profileInfo .img:before,
+.profileInfo .img:after,
+.result .img:before,
+.result .img:after {
+  z-index: 1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 88%;
+  max-width: 160px;
+  background: #000;
+  -webkit-box-shadow: 0 15px 10px #000;
+  -moz-box-shadow: 0 15px 10px #000;
+  box-shadow: 0 15px 10px #000;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.profileInfo .img:after,
+.result .img:after {
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+.result li .img::before,
+.result li .img::after {
+  z-index: -1;
+}
+.addboxVerticle {
+  text-align: center;
+  border: solid 1px #eee;
+  padding: 10px 2px;
+  background-color: #fff;
+  z-index: 9;
+}
+#textslideshow > span {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+body.ragistration {
+  padding: 0 !important;
+}
+.ragistration .hidebar,
+.ragistration .headerbar.fixed {
+  position: static;
+}
+#video iframe {
+  width: 100%;
+  height: 400px;
+  display: block;
+}
+@media screen and (max-width: 767px) {
+  #video iframe {
+    height: 300px;
+  }
+  nav li:hover .submenu {
+    display: none;
+  }
+}
+/*community Links*/
+.communityLinks .links {
+  clear: both;
+  position: relative;
+  margin-bottom: 20px;
+  border-bottom: solid 1px #ccc;
+  padding-bottom: 15px;
+}
+.communityLinks .links:last-child {
+  border: 0;
+}
+.communityLinks label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 16px;
+}
+.communityLinks ul {
+  padding-left: 100px;
+}
+.communityLinks ul li {
+  display: inline-block;
+  padding: 0 5px;
+  position: relative;
+  margin-bottom: 5px;
+}
+.communityLinks ul li:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "|";
+}
+.communityLinks ul li:last-child:after {
+  display: none;
+}
+.communityLinks ul li a {
+  display: block;
+  padding-right: 10px;
+}
+/*end community Links*/
+
+@media screen and (max-width: 767px) {
+  #video iframe {
+    height: 300px;
+  }
+  nav li:hover .submenu {
+    display: none;
+  }
+}

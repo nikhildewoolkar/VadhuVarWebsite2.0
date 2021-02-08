@@ -1,0 +1,402 @@
+@media screen and (max-width: 1200px) {
+  nav ul li a {
+    font-size: 14px;
+    padding: 20px 15px;
+  }
+  .findMatchesForm ul li {
+    width: 48%;
+  }
+  .stories .img {
+    height: 200px;
+    line-height: 190px;
+  }
+  .featuredProfile .acivity {
+    padding: 0 20%;
+  }
+  .banner .findMatchesForm {
+    top: 40px;
+  }
+  .banner .findMatchesForm ul li {
+    margin-bottom: 15px;
+  }
+  /*login page*/
+  .logInpage .logInpagestartDating {
+    padding: 0 30px;
+  }
+  /*login page*/
+
+  /* blog section*/
+  .blog dl dd h3 {
+    font-size: 18px;
+  }
+  .blog dl dd .description {
+    font-size: 14px;
+    padding-right: 30px;
+  }
+  /* blog section*/
+
+  .banner h1 {
+    margin-top: 200px;
+  }
+  .findMatchesForm ul li {
+    margin-bottom: 20px;
+  }
+  .findMatchesForm .ageSection span {
+    width: 44%;
+  }
+}
+@media screen and (max-width: 967px) {
+  h2 {
+    font-size: 20px;
+  }
+  header .logo {
+    width: 170px;
+  }
+  nav ul li a {
+    font-size: 13px;
+    padding: 20px 10px;
+  }
+  .wrapper {
+    padding: 20px 0;
+  }
+  .ourServices .description {
+    max-width: 300px;
+    margin: 0 auto 20px;
+    min-height: auto;
+  }
+  .ourServices .innerBox {
+    margin-bottom: 40px;
+  }
+  .stories .innerBox {
+    max-width: 300px;
+    margin: 0 auto 30px;
+  }
+  .featuredProfile .innerBox {
+    margin-bottom: 30px;
+  }
+  .featuredProfile .acivity {
+    padding: 0 10px;
+  }
+  footer .fttop .col {
+    margin-bottom: 20px;
+  }
+
+  .banner .findMatchesForm {
+    top: 20px;
+  }
+  .banner .findMatchesForm ul li {
+    margin-bottom: 10px;
+  }
+  /*login page*/
+  .logInpage .logInContainer {
+    width: auto;
+    padding: 50px 0;
+  }
+  .logInpage .logInpagestartDating {
+    padding: 0 15px;
+  }
+  .logInpage .logInpagestartDating h1 {
+    margin-top: 20px;
+  }
+  /*login page*/
+  /*start contact page*/
+  .contactInfo {
+    margin-bottom: 30px;
+  }
+  /* end contact page*/
+
+  .homeBanner {
+    background-position: center 118px;
+    padding-top: 0 !important;
+    background-size: auto;
+  }
+  .findMatchesForm ul li:last-child {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+  .findMatchesForm ul li:last-child label {
+    display: none;
+  }
+  .findMatchesForm .ageSection span {
+    width: 42%;
+  }
+  .banner h1 {
+    margin-top: 500px;
+  }
+
+  .loginbox {
+    float: none;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hiddenDiv.show {
+    display: block;
+    height: 85px;
+  }
+  header .logo {
+    width: auto;
+  }
+  .toggleButton {
+    display: block;
+  }
+  nav ul li {
+    float: none;
+    display: block;
+    border-top: solid 1px #ccc;
+  }
+  nav ul li:after {
+    display: none;
+  }
+  header nav {
+    float: none;
+    clear: both;
+    background-color: #566374;
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 72px;
+    left: 0;
+  }
+  nav ul li a,
+  nav ul li.active a {
+    padding: 10px;
+    color: #fff;
+  }
+  nav ul li:hover,
+  nav ul li.active {
+    background-color: #ff6600;
+    color: #fff;
+  }
+  nav ul li:hover a {
+    color: #fff;
+  }
+
+  .findMatchesForm ul li {
+    width: 100%;
+  }
+
+  .fttop h2 {
+    position: relative;
+    cursor: pointer;
+    pointer-events: auto;
+  }
+  .fttop h2:after {
+    position: absolute;
+    right: 0px;
+    top: -10px;
+    content: "+";
+    font-size: 40px;
+  }
+  .fttop h2.active:after {
+    content: "_";
+    top: -30px;
+  }
+  .fttop p,
+  .fttop ul {
+    display: none;
+  }
+  .notFoundWrapper {
+    padding: 30px 0;
+  }
+  .notFoundWrapper h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .notFoundWrapper p {
+    padding: 0;
+    font-size: 16px;
+  }
+  .notFoundWrapper span {
+    font-size: 100px;
+  }
+  .faqContent h3 {
+    font-size: 20px;
+  }
+
+  .titleWrapper h1 {
+    font-size: 20px;
+  }
+  .info .commentWprapper {
+    height: 140px;
+  }
+  /*blog section*/
+  .blog .blogWrapper {
+    text-align: center;
+  }
+  .blog dl dt {
+    float: none;
+    display: block;
+    width: auto;
+  }
+  .blog dl dd {
+    text-align: left;
+    padding-left: 10px;
+    margin-left: 0;
+  }
+  .blog {
+    padding-top: 50px;
+  }
+  /*blog section*/
+  nav .submenu {
+    position: static;
+    width: 100%;
+    background-color: #566374;
+  }
+  nav .submenu:after,
+  nav .submenu:before {
+    display: none;
+  }
+  nav .submenu li {
+    padding-left: 20px;
+  }
+  nav .dropdown > a:after {
+    content: "+";
+    font-size: 30px;
+    top: -2px;
+    right: 20px;
+    background: transparent;
+  }
+  nav .dropdown > a.active:after {
+    content: "_";
+    top: -17px;
+    right: 18px;
+  }
+
+  .forgotlink {
+    text-align: center;
+    float: none;
+    display: block;
+    font-size: 20px;
+  }
+  .homeBanner {
+    background-position: center 85px;
+  }
+  .topbar {
+    display: none;
+  }
+  .banner h1 {
+    font-size: 1.8em;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    margin-top: 240px;
+    margin-bottom: 40px;
+  }
+  .homeBanner {
+    background-image: url();
+    background-size: 100%;
+  }
+  .logInpage .logInContainer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .logInpage h2 {
+    margin: 0;
+  }
+  .communityLinks label {
+    position: static;
+    display: block;
+    padding-left: 5px;
+  }
+  .communityLinks ul {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .topbar .topLeft span {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .topbar .topLeft,
+  .topbar .topRight {
+    float: none;
+    display: block;
+    clear: both;
+    text-align: center;
+  }
+  .topbar .topRight {
+    border-top: 1px solid #ddd;
+    height: 50px;
+  }
+  .topbar .socialLink a {
+    display: inline-block;
+    float: none;
+    border: 0;
+  }
+  header .logo {
+    width: 200px;
+  }
+  .toggleButton {
+    margin-top: 25px;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .titleDescription {
+    font-size: 14px;
+    padding: 0;
+  }
+  footer .ftbottom {
+    font-size: 12px;
+  }
+  .info {
+    padding: 50px 0;
+  }
+  .faqContent h3 {
+    font-size: 16px;
+  }
+  /* blog section*/
+  .blog {
+    padding-top: 30px;
+  }
+  /* blog section*/
+
+  .findMatchesForm .btn {
+    display: block;
+    font-size: 20px;
+    width: 100%;
+  }
+  #myLoginModal .loginbox {
+    padding: 0;
+  }
+  .fttop h2 {
+    font-size: 16px;
+  }
+  .fttop h2:after {
+    font-size: 30px;
+    top: -6px;
+  }
+  .fttop h2.active:after {
+    top: -20px;
+  }
+}
+@media screen and (max-width: 367px) {
+  .topbar .topRight {
+    display: none;
+  }
+  .logInpage .loginbtn,
+  .info input.btnSubmit {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .info input.btnSubmit {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 91%;
+  }
+  .banner h1 {
+    font-size: 1.5em;
+    margin-top: 210px;
+  }
+  .findMatchesForm .ageSection span {
+    width: 41%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .topbar .topLeft span {
+    font-size: 12px;
+  }
+}
