@@ -1,0 +1,633 @@
+.homeBanner {
+  background: url() center 144px no-repeat;
+  background-size: contain;
+}
+.toggleButton {
+  display: none;
+  width: 35px;
+  padding: 8px 6px 2px;
+  background-color: #566374;
+  border: 0;
+  border-radius: 3px;
+  float: right;
+  margin-top: 35px;
+  transition: all 0.3s ease-in-out;
+}
+.toggleButton span {
+  height: 1px;
+  background-color: #fff;
+  display: block;
+  margin-bottom: 6px;
+}
+.toggleButton:hover {
+  background-color: #ff6600;
+}
+
+.rowslider {
+  width: 100%;
+}
+
+header {
+  position: relative;
+  z-index: 99;
+  background-color: #e91e63;
+  width: 100%;
+}
+header .logo {
+  float: left;
+  max-width: 250px;
+  padding: 10px 0;
+  transition: all 0.1s ease-in-out;
+}
+header .logo a {
+  display: block;
+}
+header nav {
+  float: right;
+  margin: 15px 0 0;
+}
+.headerbar {
+  clear: both;
+  z-index: 2;
+  background-color: #ff9933;
+}
+.headerbar.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.headerbar.fixed .logo {
+  max-width: 150px;
+}
+.headerbar.fixed nav {
+  margin: 0;
+}
+.topbar {
+  border-bottom: solid 1px #fff;
+  background-color: #fff;
+  width: 100%;
+  position: relative;
+}
+.hidebar {
+  position: fixed;
+  top: 0;
+  z-index: 0;
+}
+.topbar .topLeft {
+  float: left;
+}
+.topbar .topLeft span {
+  padding: 10px 10px 10px;
+  font-size: 14px;
+  display: inline-block;
+}
+.topLeft span .glyphicon-earphone {
+  top: 3px;
+}
+.topbar .topRight {
+  float: right;
+  line-height: 30px;
+  font-size: 13px;
+}
+.topbar .topRight label {
+  font-weight: normal;
+}
+.socialLink a {
+  display: block;
+  padding: 20px 24px;
+  border-right: solid 1px #ddd;
+  float: left;
+  background: transparent url(https) 0 0 no-repeat;
+}
+.socialLink .facebook {
+  background-position: 13px 7px;
+  border-left: solid 1px #ddd;
+}
+.socialLink .facebook:hover {
+  background-position: -28px 7px;
+}
+.socialLink .twitter {
+  background-position: 12px -38px;
+}
+.socialLink .twitter:hover {
+  background-position: -28px -38px;
+}
+.socialLink .googlePlus {
+  background-position: 12px -83px;
+}
+.socialLink .googlePlus:hover {
+  background-position: -28px -83px;
+}
+nav ul li {
+  float: left;
+  position: relative;
+}
+nav ul li:after {
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  content: "";
+  transition: all 0.3s ease-in-out;
+  margin: 0 auto;
+}
+nav ul li.active:after,
+nav ul li:hover:after {
+  width: 80%;
+  height: 2px;
+}
+nav ul li a {
+  padding: 20px 20px 30px;
+  display: block;
+  font-size: 16px;
+  position: relative;
+  color: #fff;
+}
+nav ul li:hover > a,
+nav ul li a:focus {
+  color: #fff;
+}
+nav ul li.active a {
+  font-weight: 600;
+  color: #fff;
+}
+nav ul li a .glyphicon {
+  margin-right: 10px;
+}
+.banner {
+  text-align: center;
+  position: relative;
+}
+.banner h1 {
+  font-size: 3em;
+  color: #fff;
+  margin: 310px 0 50px;
+  text-shadow: 0 1px 1px #000;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 50px;
+  border-radius: 6px;
+}
+.findMatchesForm {
+  background-color: #ff6600;
+  color: #fff;
+}
+.findMatchesForm ul {
+  padding: 30px 0;
+}
+.findMatchesForm ul li {
+  display: inline-block;
+}
+.findMatchesForm label {
+  font-weight: 400;
+  padding-right: 10px;
+  font-size: 16px;
+  margin: 0;
+  color: #fff;
+  display: block;
+  margin-bottom: 10px;
+}
+.findMatchesForm .ageSection .to {
+  display: inline-block;
+  padding: 0;
+  margin: 0 10px;
+}
+.findMatchesForm span {
+  display: block;
+  position: relative;
+}
+.findMatchesForm span:after {
+  width: 1px;
+  height: 36px;
+  background-color: #ccc;
+  right: 40px;
+  top: 0;
+  position: absolute;
+  content: "";
+}
+.findMatchesForm select {
+  background: transparent url(https://) right 10px no-repeat;
+  padding: 5px 40px 5px 5px;
+  border: solid 1px #ccc;
+  border-radius: 3px;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  height: 36px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  width: 100%;
+}
+.findMatchesForm select:focus {
+  background-position: right -22px;
+}
+.findMatchesForm select option {
+  padding: 5px;
+  background-color: #77542d;
+  color: #fff;
+}
+.findMatchesForm .btn {
+  font-size: 16px;
+}
+.findMatchesForm .btn {
+  padding: 8px 20px;
+  font-size: 16px;
+}
+.findMatchesForm .radio .malelable {
+  margin-right: 20px;
+}
+.findMatchesForm .radio:after,
+.findMatchesForm .checkbox:after {
+  display: none;
+}
+.findMatchesForm .radio label:before,
+.findMatchesForm .checkbox label:before {
+  top: 8px;
+}
+.findMatchesForm .radio label {
+  width: auto;
+  padding-right: 0;
+}
+.findMatchesForm .ageSection span {
+  width: 40%;
+  display: inline-block;
+}
+.findMatchesForm .ageSection .age {
+  width: 100%;
+}
+.banner .findMatchesForm {
+  background: transparent;
+  width: 385px;
+  position: absolute;
+  top: 70px;
+  border: solid 1px #fff;
+  border-radius: 6px;
+  padding: 20px;
+  text-align: left;
+}
+.banner .findMatchesForm ul {
+  padding-top: 10px;
+}
+.banner .findMatchesForm ul li {
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+.banner .findMatchesForm label {
+  width: 100px;
+  padding: 0;
+  float: left;
+  text-align: left;
+}
+.banner .findMatchesForm .radio label,
+.banner .findMatchesForm .checkbox label {
+  padding-left: 30px;
+  width: auto;
+}
+.banner .findMatchesForm .radio label:before,
+.banner .findMatchesForm .checkbox label:before {
+  border-color: #fff;
+}
+.banner .findMatchesForm span {
+  margin-left: 120px;
+  display: block;
+}
+.banner .findMatchesForm select {
+  border-color: #fff;
+  width: 100%;
+}
+.banner .findMatchesForm span:after {
+  background-color: #fff;
+}
+.banner .findMatchesForm .btn {
+  font-size: 20px;
+}
+.banner .findMatchesForm .age select {
+  width: 94px;
+  float: left;
+}
+.banner .findMatchesForm .age strong {
+  float: left;
+  line-height: 35px;
+  padding: 0 8px;
+  font-weight: normal;
+}
+.banner .findMatchesForm span span {
+  margin: 0;
+  position: relative;
+}
+.banner .findMatchesForm span span:first-child:after {
+  right: 168px;
+}
+.banner .findMatchesForm span span:last-child {
+  float: right;
+}
+.banner .findMatchesForm .radio label::before {
+  line-height: 16px;
+}
+/**/
+.wrapper {
+  padding: 10px 0;
+}
+.ourServices {
+  text-align: center;
+}
+.ourServices .services {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  background-color: #ff6600;
+}
+.ourServices .services i {
+  font-size: 60px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 30%;
+  transition: all 0.2s ease-in-out;
+}
+.ourServices h2 {
+  color: #ff6600;
+}
+.ourServices .description {
+  font-size: 18px;
+  line-height: 24px;
+  padding: 0 10px;
+  min-height: 120px;
+}
+.ourServices a.btn {
+  color: #fff;
+}
+.stories .innerBox {
+  border: solid 1px #dae2ef;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+.stories .img {
+  height: 242px;
+  overflow: hidden;
+  line-height: 230px;
+}
+.stories h2 {
+  border-bottom: solid 1px #ccc;
+  padding: 15px 20px 15px;
+  margin: 0;
+}
+.stories .description {
+  min-height: 150px;
+  overflow: hidden;
+  padding: 15px 20px;
+  color: #999;
+  line-height: 24px;
+}
+.stories .shareOn {
+  border-top: solid 1px #ccc;
+}
+.stories .shareOn label {
+  font-size: 18px;
+  font-weight: 400;
+  color: #999;
+  padding: 8px 0 7px 20px;
+  margin: 0;
+}
+.stories .shareOn .socialLink {
+  float: right;
+}
+.stories .shareOn .socialLink a:last-child {
+  border: 0;
+}
+.featuredProfile .img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.featuredProfile .innerBox {
+  text-align: center;
+}
+.featuredProfile .acivity {
+  padding: 0 24%;
+}
+footer {
+  background: #2e2e2e;
+  color: #ccc;
+}
+footer h2 {
+  margin: 0 0 20px 0;
+  color: #fff;
+  border-bottom: solid 1px #454545;
+  padding-bottom: 15px;
+  pointer-events: none;
+}
+footer .fttop {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+footer ul li a {
+  color: #ccc;
+  padding-bottom: 10px;
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+footer ul li:hover a {
+  padding-left: 10px;
+  color: #ff6600;
+}
+footer .ftbottom {
+  background: #222222;
+  padding: 20px 0;
+  color: #ccc;
+  text-align: center;
+}
+.subscribeWrapper {
+  padding: 20px 0;
+  border-bottom: solid 1px #454545;
+  border-top: solid 1px #454545;
+  text-align: center;
+}
+.subscribeWrapper .email {
+  padding: 10px;
+  background: transparent;
+  border: solid 1px #ccc;
+  margin-right: 10px;
+  width: 300px;
+}
+.subscribeWrapper .btnSubmit {
+  padding: 12px 30px;
+  text-transform: uppercase;
+}
+.faq {
+  border-bottom: solid 1px #eee;
+}
+.faqContent {
+  padding: 30px 0;
+}
+.faqContent h3 {
+  font-size: 24px;
+  color: #718493;
+  margin-bottom: 25px;
+  position: relative;
+  cursor: pointer;
+  padding-right: 40px;
+}
+.faqContent h3.active {
+  color: #e97407;
+}
+.faqContent h3:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -3px;
+  width: 30px;
+  height: 30px;
+  background: url(http) 0 10px no-repeat;
+}
+.faqContent h3.active:after {
+  background: url() 0 -15px no-repeat;
+}
+.faqContent .answer {
+  font-size: 14px;
+  color: #8fa4b7;
+  line-height: 25px;
+  margin-bottom: 20px;
+  display: none;
+}
+.faqContent .answer a {
+  color: #34a2c3;
+  text-decoration: underline;
+}
+.blog {
+  padding-top: 70px;
+}
+.blog dl {
+  border: 1px solid #dee0ef;
+  margin-bottom: 50px;
+}
+.blog dl dt {
+  width: 230px;
+  overflow: hidden;
+  float: left;
+  text-align: center;
+}
+.blog dl dd {
+  margin-left: 270px;
+}
+.blog dl dd h3 {
+  font-size: 26px;
+  color: #71889a;
+  padding: 14px 0;
+  border-bottom: 1px solid #dee0ef;
+  margin: 0;
+}
+.blog dl dd .description {
+  font-size: 16px;
+  color: #7f92a1;
+  padding: 14px 0;
+  display: block;
+  padding-right: 105px;
+  margin: 0;
+}
+.blog dl dd a {
+  color: #3e4bb3;
+}
+.shareOn {
+  overflow: hidden;
+  border-top: 1px solid #dee0ef;
+}
+.shareOn span {
+  float: left;
+  font-size: 20px;
+  line-height: 40px;
+}
+.shareOn .socialLink {
+  float: right;
+}
+.paginationWrapper {
+  text-align: center;
+  border-top: 1px solid #dee0ef;
+  padding: 20px 0;
+  border-bottom: 1px solid #dee0ef;
+  margin-bottom: 40px;
+}
+.pagination {
+  margin: 0;
+}
+.pagination > li > a,
+.pagination > li > span {
+  color: #566374;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a.active,
+.pagination > li > span.active {
+  background-color: #ff6600;
+  color: #fff;
+}
+.profileSectionWrapper {
+  padding: 20px 0;
+}
+#myLoginModal .modal-header,
+#myLoginModal .modal-footer,
+#galleryModal .modal-header {
+  background-color: #ff6600;
+  color: #fff;
+}
+#myLoginModal .modal-footer {
+  padding: 5px;
+  text-align: center;
+}
+#myLoginModal .modal-title,
+#myLoginModal button.close,
+#galleryModal .modal-title,
+#galleryModal button.close {
+  color: #fff;
+  opacity: 1;
+}
+#myLoginModal .loginbox {
+  background: transparent;
+  border: 0;
+}
+#myLoginModal .loginbox h2 {
+  margin: 0;
+  color: #666;
+}
+#myLoginModal .clickhere,
+#myLoginModal .forgotlink {
+  font-size: 14px;
+}
+#myLoginModal .forgotlink {
+  color: #337ab7;
+  line-height: 35px;
+  float: right;
+}
+#myLoginModal p a {
+  color: #337ab7;
+}
+.notmemberyet {
+  padding: 18px;
+  background-color: #f4f4f4;
+  text-align: center;
+  margin-top: 10px;
+  color: #000;
+}
+.notmemberyet .btn {
+  width: 100%;
+}
+.comuti_srch ul li,
+.comuti_srch ul span {
+  display: inline-block;
+}
+.comuti_srch ul li {
+  margin: 0 5px 10px 0;
+}
